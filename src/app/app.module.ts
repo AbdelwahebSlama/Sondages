@@ -7,11 +7,15 @@ import { LoginComponent } from './component/login/login.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule} from '@angular/common/http';
 import {FormsModule} from "@angular/forms";
+import { InscriptionComponent } from './component/inscription/inscription.component';
+import { AcueilComponent } from './component/acueil/acueil.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    InscriptionComponent,
+    AcueilComponent
   ],
   imports: [
     BrowserModule,
